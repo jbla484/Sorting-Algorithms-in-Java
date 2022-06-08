@@ -33,8 +33,8 @@ The insertion sort algorithm has two partitions, the sorted partition being the 
 
 The shell sort algorithm is mainly a variation of the Insertion Sort algorithm. The concept of ShellSort is to sort non-adjacent elements with a gap larger than one. We keep reducing the value of the gap every iteration until it becomes one, performing an insertion sort last to sort the rest of the elements.
 
-## ShellSort
+## MergeSort
 
 **stable:** `Yes` - **time:** `O(nlogn)` - **space:** `O(n)`
 
-
+Merge Sort is a recursive divide and conquer algorithm that divides it's input array into halves. It then calls itself for the halves, and merges the two sorted halves together. The included merge() function is used for merging the sorted halves. It is one of the most popular and efficient sorting algorithms.
