@@ -7,6 +7,7 @@ public class BubbleSort {
     */
 
     public void sort() {
+        
         // declare int array to sort
         int[] nums = {55, 17, 43, -12, 75, 13, 7};
 
