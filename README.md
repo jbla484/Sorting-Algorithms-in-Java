@@ -5,6 +5,7 @@ Sorting algorithms are used to organize a large number of elements into a specif
 * [BubbleSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/BubbleSort.java)
 * [SelectionSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/SelectionSort.java)
 * [InsertionSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/InsertionSort.java)
+* [ShellSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/ShellSort.java)
 
 ## BubbleSort
 
