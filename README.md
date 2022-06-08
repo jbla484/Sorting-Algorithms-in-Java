@@ -23,4 +23,4 @@ Selection Sort starts with the first element in the array (or list) and initiate
 
 **stable:** `Yes` - **time:** `O(n^2)` - **space:** `O(1)`
 
-It's a stable sorting algorithm that seeks to sort a list one element at a time. With each iteration, it takes the next element waiting to be sorted, and adds it, in proper location, to those elements that have already been sorted.
+The insertion sort algorithm has two partitions, the sorted partition being the first element in the array, and the unsorted partition being every element after that. With each iteration, it takes the next element waiting to be sorted (from the unsorted partition), and adds it, in proper location, to the sorted partition.
