@@ -6,6 +6,7 @@ Sorting algorithms are used to organize a large number of elements into a specif
 * [SelectionSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/SelectionSort.java)
 * [InsertionSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/InsertionSort.java)
 * [ShellSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/ShellSort.java)
+* [MergeSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/MergeSort.java)
 
 ## BubbleSort
 
@@ -31,3 +32,9 @@ The insertion sort algorithm has two partitions, the sorted partition being the 
 **stable:** `No` - **time:** `O(n^2)` - **space:** `O(1)`
 
 The shell sort algorithm is mainly a variation of the Insertion Sort algorithm. The concept of ShellSort is to sort non-adjacent elements with a gap larger than one. We keep reducing the value of the gap every iteration until it becomes one, performing an insertion sort last to sort the rest of the elements.
+
+## ShellSort
+
+**stable:** `Yes` - **time:** `O(nlogn)` - **space:** `O(n)`
+
+
