@@ -7,6 +7,7 @@ Sorting algorithms are used to organize a large number of elements into a specif
 * [InsertionSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/InsertionSort.java)
 * [ShellSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/ShellSort.java)
 * [MergeSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/MergeSort.java)
+* [QuickSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/QuickSort.java)
 
 ## BubbleSort
 
@@ -38,3 +39,9 @@ The shell sort algorithm is mainly a variation of the Insertion Sort algorithm. 
 **stable:** `Yes` - **time:** `O(nlogn)` - **space:** `O(n)`
 
 Merge Sort is a recursive divide and conquer algorithm that divides it's input array into halves. It then calls itself for the halves, and merges the two sorted halves together. The included merge() function is used for merging the sorted halves. It is one of the most popular and efficient sorting algorithms.
+
+## QuickSort
+
+**stable:** `No` - **time:** `O(nlogn)` - **space:** `O(logn)`
+
+The quick sort algorithm is often faster in practice compared to other sorting algorithms. It uses a divide and conquer strategy to quickly sort the data by dividing the array into two partitions every interation. It continues to divide the array until the partition contains just one element, assigning the individual elements to their correct sorted index.
