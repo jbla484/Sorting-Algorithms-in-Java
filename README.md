@@ -8,9 +8,9 @@ Sorting algorithms are used to organize a large number of elements into a specif
 * [ShellSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/ShellSort.java)
 * [MergeSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/MergeSort.java)
 * [QuickSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/QuickSort.java)
+* [CountingSort](https://github.com/jbla484/Sorting-Algorithms-in-Java/blob/main/CountingSort.java)
 
 ## BubbleSort
-
 
 **stable:** `Yes` - **time:** `O(n^2)` - **space:** `O(1)`
 
@@ -45,3 +45,9 @@ Merge Sort is a recursive divide and conquer algorithm that divides it's input a
 **stable:** `No` - **time:** `O(nlogn)` - **space:** `O(logn)`
 
 The quick sort algorithm is often faster in practice compared to other sorting algorithms. It uses a divide and conquer strategy to quickly sort the data by dividing the array into two partitions every interation. It continues to divide the array until the partition contains just one element, assigning the individual elements to their correct sorted index.
+
+## CountingSort
+
+**stable:** `No` - **time:** `O(n)` - **space:** `O(n+r)`
+
+The counting sort algorithm is based on keys between a specific range. It works by counting the number of objects having distinct key values (like hashing), and doing some arithmetic to calculate the position of each object in the output sequence. 
