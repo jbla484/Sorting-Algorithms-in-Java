@@ -6,18 +6,10 @@ public class MergeSort {
         TIME COMPLEXITY - O(nlogn)
     */
 
-    public void sort() {
-
-        // declare int array to sort
-        int[] nums = {55, 17, 43, -12, 75, 13, 7};
+    public void sort(int[] input) {
 
         // call the sort function to sort the array
-        mergeSort(nums, 0, nums.length);
-
-        // print values of sorted array to console
-        for (int num : nums) {
-            System.out.println(num);
-        }
+        mergeSort(input, 0, input.length);
     }
 
     public static void mergeSort(int[] input, int start, int end) {
