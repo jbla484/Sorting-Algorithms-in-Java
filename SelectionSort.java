@@ -4,7 +4,7 @@ public class SelectionSort {
         SELECTION SORT
         IN-PLACE / UNSTABLE
         TIME COMPLEXITY - 0(n^2)
-        */
+    */
 
     public void sort(int[] input) {
 
