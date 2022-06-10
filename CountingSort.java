@@ -6,18 +6,10 @@ public class CountingSort {
         TIME COMPLEXITY - O(n)
     */
 
-    public void sort() {
-
-        // declare int array to sort
-        int[] nums = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3};
+    public void sort(int[] input) {
 
         // call the sort function to sort the array
-        countingSort(nums, 1, nums.length);
-
-        // print values of sorted array to console
-        for (int num : nums) {
-            System.out.println(num);
-        }
+        countingSort(input, 1, input.length);
     }
 
     public static void countingSort(int[] input, int min, int max) {
